@@ -15,6 +15,8 @@ namespace AppsCatalog.Data
         {
         }
 
+        public DbSet<Application> Applications { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -24,3 +26,5 @@ namespace AppsCatalog.Data
         }
     }
 }
+
+

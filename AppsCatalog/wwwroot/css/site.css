@@ -2,7 +2,9 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
+*{
+    font-size: 16px;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -32,4 +34,14 @@
     .carousel-caption {
         display: none;
     }
+}
+
+.search-area {
+    font-size: 16px;
+    width: 250px;
+    margin: 15px;
+}
+
+.form-control {
+    font-size: 16px;
 }
